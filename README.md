@@ -39,7 +39,7 @@ npm install
 ## Database Setup
 This project uses MySQL as its database. You will need to have a MySQL server installed and running on your machine. 
 
-The project assumes you're running a database named 'notes_app' on 127.0.01, or you can create a new MySQL database and update the server/db.js file with your database information.
+The project assumes you're running a database named ```notes_app``` on ```27.0.01```, or you can create a new MySQL database and update the server/db.js file with your database information.
 
 One the database is setup, from the server directory run:
 
