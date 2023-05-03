@@ -37,9 +37,11 @@ npm install
 ```
 
 ## Database Setup
-This project uses MySQL as its database. You will need to have a MySQL server installed and running on your machine. Create a new MySQL database and update the config/config.json file with your database information.
+This project uses MySQL as its database. You will need to have a MySQL server installed and running on your machine. 
 
-After updating the config/config.json file with your database information, you can run the following command to create the necessary tables in the database:
+The project assumes you're running a database named 'notes_app' on 127.0.01, or you can create a new MySQL database and update the server/db.js file with your database information.
+
+One the database is setup, from the server directory run:
 
 ```bash
 npx sequelize-cli db:migrate
