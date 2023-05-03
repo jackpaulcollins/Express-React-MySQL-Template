@@ -13,7 +13,16 @@ Starter Template utilizing a React frontend and Express server. The Express serv
 
 ## Installation
 
-After cloning the repository first install the dependencies:
+After cloning the repository:
+
+###  Create a .env file and add the following with your own secret keys
+
+    PASSPORT_SECRET_KEY=<Generate Secret Key>
+    JWT_SECRET=<Generate Secret Key>
+
+*(make sure to add .env to gitignore if you're going to commit the project to source control)*
+
+### Install dependencies
 
 ```bash
 cd client
