@@ -32,7 +32,7 @@ function Notes() {
             <div className="flex w-full items-center justify-between space-x-6 p-6">
               <div className="flex-1 truncate">
                 <div className="flex items-center space-x-3">
-                  <span className="inline-flex flex-shrink-0 items-center rounded-full bg-green-50 px-1.5 py-0.5 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+                  <span className="inline-flex flex-shrink-0 items-center px-1.5 py-0.5 text-xs font-medium">
                     {note.content}
                   </span>
                 </div>
